@@ -47,7 +47,7 @@ describe('linkedList', () => {
     link.append(2);
     link.append(3);
     expect(link.size).toBe(2);
-    let res = link.findePrev(3);
+    let res = link.findPrev(3);
     expect(link.findPrev(3).value).toBe(2);
     expect(link.findPrev(2).value).toBe('head');
   });
